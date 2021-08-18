@@ -4,12 +4,12 @@ The app uses HitBTC api sockets and caches last update in the memory.
 
 The app interfaces for the rest client only for the two main coins ["BTC", "ETH"].
 
-######Available endpoints:
+###### Available endpoints:
 `/all` and `/{Symbol}`
 symbols: [btc, eth]
 
-######To run server:
+###### To run server:
 `go run src/main.go`
 
-######Dependencies:
+###### Dependencies:
 `go-chi` router and golang `net` package.
