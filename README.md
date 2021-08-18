@@ -1,6 +1,6 @@
 ### Go Microservice
 
-The app is listens HitBTC api via sockets and caches last update in the memory.
+The app uses HitBTC api sockets and caches last update in the memory.
 
 The app interfaces for the rest client only for the two main coins ["BTC", "ETH"].
 
